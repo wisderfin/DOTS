@@ -1,0 +1,33 @@
+// Поместите настраиваемые сочетания клавиш в этот файл, чтобы переопределить сочетания клавиш по умолчанию.
+[
+    {
+        "key": "shift+tab",
+        "command": "codeium.supercompleteAccept",
+        "when": "codeium.supercompleteOnTab && codeium.supercompleteShown && editorTextFocus && !inlineSuggestionsVisible"
+    },
+    {
+        "key": "tab",
+        "command": "-codeium.supercompleteAccept",
+        "when": "codeium.supercompleteOnTab && codeium.supercompleteShown && editorTextFocus && !inlineSuggestionsVisible"
+    },
+    {
+        "key": "numpad_divide",
+        "command": "extension.liveServer.goOnline",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+l alt+o",
+        "command": "-extension.liveServer.goOnline",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "numpad_multiply",
+        "command": "extension.liveServer.goOffline",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+l alt+c",
+        "command": "-extension.liveServer.goOffline",
+        "when": "editorTextFocus"
+    }
+]
