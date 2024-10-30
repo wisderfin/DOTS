@@ -19,5 +19,10 @@ git add swaylock/                               # Конфиг менеджер�
 
 git add Code/User/Readme.md
 git add Code/User/image.png
+git add hypr/README.md
+git add hypr/image.png
+git add hypr/image2.png
+git add hypr/image3.png
+
 # Проверка статуса для подтверждения
 git status
