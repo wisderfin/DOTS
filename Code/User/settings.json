@@ -1,178 +1,119 @@
 {
-    "workbench.colorTheme": "React Theme",
-    "workbench.iconTheme": "vs-seti-jetbrainsmononerdfontmono",
-    "workbench.activityBar.location": "hidden",
-    "workbench.statusBar.visible": false,
-    "security.workspace.trust.untrustedFiles": "open",
-    "workbench.sideBar.location": "right",
+    "workbench.colorTheme": "React Theme",                      // Цыетовая тема
+    "workbench.iconTheme": "vs-seti-jetbrainsmononerdfontmono", // Тема иконок
+    "workbench.activityBar.location": "hidden",                 // Скрытие панели активности
+    "workbench.statusBar.visible": false,                       // Скрытие строки состояния
+    "security.workspace.trust.untrustedFiles": "open",          // Открытие недоверенных файлов
+    "workbench.sideBar.location": "right",                      // Положение боковой панели
 
-    "editor.copyWithSyntaxHighlighting": false,
-    "diffEditor.ignoreTrimWhitespace": false,
-    "editor.multiCursorModifier": "ctrlCmd",
-    "files.trimTrailingWhitespace": true,
-    "diffEditor.renderSideBySide": false,
-    "editor.snippetSuggestions": "bottom",
-    "editor.detectIndentation": false,
-    "window.nativeFullScreen": true,
-    "files.insertFinalNewline": true,
-    "files.trimFinalNewlines": true,
-    "workbench.editor.showTabs": "single", // вкладки
-    "editor.minimap.enabled": false,
-    "editor.lineNumbers": "on", // number-line
-    "editor.guides.indentation": false,
+    "files.insertFinalNewline": true,                           // автодобавление пустой строки в конец при сохранении
+    "files.trimFinalNewlines": true,                            // удаление пустых строк в конце
+    "editor.copyWithSyntaxHighlighting": false,                 // отключает копирование кода с подсветкой синтаксиса.
+    "diffEditor.ignoreTrimWhitespace": false,                   //  учитывает пробелы в конце строк при сравнении версий файлов
+    "editor.multiCursorModifier": "ctrlCmd",                    // клавиша-модификатор для мульти-курсора
+    "files.trimTrailingWhitespace": true,                       // удаление пробелов в конце строк
+    "diffEditor.renderSideBySide": false,                       // режим рендеринга сравнения версий файлов
+    "editor.snippetSuggestions": "bottom",                      // подсказки для сниппетов
+    "editor.detectIndentation": false,                          // отключает автоматическое определение отступов по содержимому файла
+    "window.nativeFullScreen": true,                            // полноэкранный режим
+    "workbench.editor.showTabs": "single",                      // отображает вкладки только для одного открытого файла.
+    "editor.minimap.enabled": false,                            // отключить мини-карту
+    "editor.lineNumbers": "on",                                 // показывает номера строк
+    "editor.guides.indentation": false,                         // отключает отрисовку отступов
 
     // Silence the Noise
-    "breadcrumbs.enabled": false,
-    "scm.diffDecorations": "none",
-    "editor.hover.delay": 100, //////////////////
-    "editor.hover.enabled": true,
-    "editor.matchBrackets": "never",
-    "workbench.tips.enabled": false,
-    "editor.colorDecorators": true, // color-panel
-    "git.decorations.enabled": false,
-    "workbench.startupEditor": "none",
-    "editor.lightbulb.enabled": "off",
-    "editor.selectionHighlight": false, // отображение всех равных выделеной части фрагментов
-    "editor.overviewRulerBorder": false,
-    "editor.renderLineHighlight": "none",
-    "editor.occurrencesHighlight": "off",
-    "problems.decorations.enabled": false,
-    "editor.renderControlCharacters": false,
-    "editor.hideCursorInOverviewRuler": true,
-    "editor.gotoLocation.multipleReferences": "goto",
-    "editor.gotoLocation.multipleDefinitions": "goto",
-    "editor.gotoLocation.multipleDeclarations": "goto",
-    "workbench.editor.enablePreviewFromQuickOpen": false,
-    "editor.gotoLocation.multipleImplementations": "goto",
-    "editor.gotoLocation.multipleTypeDefinitions": "goto",
+    "breadcrumbs.enabled": false,                               // отключает отображение навигационной цепочки
+    "scm.diffDecorations": "none",                              // отключает отображение различий в версиях
+    "editor.hover.delay": 200,                                  // задержка отображения подсказки
+    "editor.hover.enabled": true,                               // отображение подсказок
+    "editor.matchBrackets": "never",                            // отключает подсветку скобок
+    "workbench.tips.enabled": false,                            // отключает всплывающие подсказки
+    "editor.colorDecorators": true,                             // подсветка декораторов
+    "git.decorations.enabled": false,                           // отключает отображение различий в версиях
+    "workbench.startupEditor": "none",                          // отключает отображение первого открытого файла
+    "editor.lightbulb.enabled": "off",                          // отключает отображение подсказок
+    "editor.selectionHighlight": true,                          // отображение всех равных выделеной части фрагментов
+    "editor.overviewRulerBorder": false,                        // отключает отображение рамки
+    "editor.renderLineHighlight": "none",                       // отключает отображение выделения линей
+    "editor.occurrencesHighlight": "off",                       // отключает отображение совпадений
+    "problems.decorations.enabled": false,                      // отключает отображение ошибок
+    "editor.renderControlCharacters": false,                    // отключает отображение специальных символов
+    "editor.hideCursorInOverviewRuler": true,                   // отключает отображение курсора в правой колонке
+    "editor.gotoLocation.multipleReferences": "goto",           // отображение ссылок
+    "editor.gotoLocation.multipleDefinitions": "goto",          // отображение определений
+    "editor.gotoLocation.multipleDeclarations": "goto",         // отображение деклараций
+    "workbench.editor.enablePreviewFromQuickOpen": false,       // отключает отображение первого открытого файла
+    "editor.gotoLocation.multipleImplementations": "goto",      // отображение реализаций
+    "editor.gotoLocation.multipleTypeDefinitions": "goto",      // отображение типов
 
     // Typography
-    "editor.fontFamily": "JetBrainsMono Nerd Font Mono, Geist Mono, JetBrains Mono, Fira Code",
-    "editor.suggestFontSize": 16,
-    "editor.suggestLineHeight": 30,
-    "terminal.integrated.lineHeight": 1.5,
-    "terminal.integrated.fontSize": 16,
+    "editor.fontFamily": "JetBrainsMono Nerd Font Mono, Geist Mono, JetBrains Mono, Fira Code", // Шрифт
+    "editor.suggestFontSize": 16,                          // Размер шрифта подсказок
+    "editor.suggestLineHeight": 30,                        // Высота строки подсказок
+    "terminal.integrated.lineHeight": 1.5,                 // Высота строки
+    "terminal.integrated.fontSize": 16,                    // Размер шрифта
 
-    "search.useIgnoreFiles": false,
-    // "search.exclude": { // ИСКЛЮЧЕНИЯ ИЗ ПОИСКА ПО ФАЙЛАМ
-    //     // Hide everything in /vendor, except the "laravel" and "livewire" folder.
-    //     "**/vendor/{[^l],?[^ai]}*": true,
-    //     // Hide everything in /public, except "index.php"
-    //     "**/public/{[^i],?[^n]}*": true,
-    //     "**/node_modules": true,
-    //     "**/dist": true,
-    //     "**/_ide_helper.php": true,
-    //     "**/composer.lock": true,
-    //     "**/package-lock.json": true,
-        // "storage": true,
-    //     ".phpunit.result.cache": true
-    // },
-
-    // /**
-    // * Code
-    // **/
-    // // Include "-" in word selection.
-    "editor.wordSeparators": "`~!@#%^&*()=+[{]}\\|;:'\",.<>/?",
-    // "emmet.includeLanguages": {
-    //     "blade": "html",
-    //     "vue-html": "html",
-    //     "vue": "html",
-    //     "react": "html",
-    //     "javascript": "html"
-    // },
-    // "files.associations": {
-    //     ".php_cs": "php",
-    //     ".php_cs.dist": "php"
-    // },
-
-    // /**
-    // * PHP
-    // **/
-    // "php.suggest.basic": false,
-
-    // /**
-    // * Prettier
-    // **/
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
-        "editor.formatOnSave": true
+    "search.useIgnoreFiles": false,                        // Игнорировать файлы
+    "editor.wordSeparators": "`~!@#%^&*()=+[{]}\\|;:'\",.<>/?", // определяет символы, которые используются как разделители слов в редакторе.
+    "[javascript]": {                                      // Расширение javascript
+        "editor.defaultFormatter": "ms-vscode.js-debug",   // форматтер по умолчанию
+        "editor.formatOnSave": true                        // включает форматирование при сохранении
     },
-    // "[typescriptreact]": {
-    //     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    //     "editor.formatOnSave": true
-    // },
-    // "[tailwindcss]": {
-    //     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    //     "editor.formatOnSave": true
-    // },
-    // "[vue]": {
-    //     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    //     "editor.formatOnSave": true
-    // },
-    // "[javascriptreact]": {
-    //     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    //     "editor.formatOnSave": true
-    // },
-    "prettier.requireConfig": true,
-    "prettier.useEditorConfig": false,
-    "explorer.sortOrder": "type",
-    "prettier.tabWidth": 4,
-    "vetur.format.options.tabSize": 4,
-    "workbench.tree.indent": 15,
-    "[html]": {
-        "editor.defaultFormatter": "apility.beautify-blade",
-        "editor.formatOnSave": true
+    "prettier.requireConfig": true,                        // требовать конфигурацию
+    "prettier.useEditorConfig": false,                     // использовать конфигурацию из редактора
+    "explorer.sortOrder": "type",                          // сортировка
+    "prettier.tabWidth": 4,                                // ширина табуляции
+    "vetur.format.options.tabSize": 4,                     // ширина табуляции
+    "workbench.tree.indent": 15,                           // отступ
+    "[html]": {                                            // Расширение html
+        "editor.defaultFormatter": "vscode.html-language-features", // форматтер по умолчанию
+        "editor.formatOnSave": true                        // включает форматирование при сохранении
     },
-    "editor.wordWrapColumn": 120,
-    "[css]": {
-        "editor.defaultFormatter": "vscode.css-language-features",
-        "editor.formatOnSave": true
+    "editor.wordWrapColumn": 120,                          // максимальная ширина строки
+    "[css]": {                                             // Расширение css
+        "editor.defaultFormatter": "vscode.css-language-features", // форматтер по умолчанию
+        "editor.formatOnSave": true                        // включает форматирование при сохранении
     },
 
-    "editor.quickSuggestions": {
-        "strings": true
+    "editor.quickSuggestions": {                           // подсказки
+        "strings": true                                    // подсказки строк
     },
-    "[jsonc]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "[jsonc]": {                                           // Расширение json
+        "editor.defaultFormatter": "vscode.json-language-features" // форматтер по умолчанию
     },
-    "[json]": {
-        "editor.defaultFormatter": "vscode.json-language-features"
+    "[json]": {                                            // Расширение json
+        "editor.defaultFormatter": "vscode.json-language-features" // форматтер по умолчанию
     },
-    "security.workspace.trust.untrustedFiles": "open",
-    "editor.linkedEditing": true,
-    "editor.formatOnSave": false,
-    "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'calt', 'dlig'",
-    "diffEditor.wordWrap": "on",
-    "notebook.output.wordWrap": true,
-    "editor.fontSize": 15.5,
-    "editor.minimap.maxColumn": 250,
-    "codesnap.containerPadding": "8em",
-    "codesnap.boxShadow": "rgba(0, 0, 0, 0.55) 0px 12px 24px",
-    "explorer.confirmDelete": false,
-    "editor.accessibilitySupport": "off",
-    "chat.editor.wordWrap": "on",
-    "editor.wordWrap": "wordWrapColumn",
-    // "[php]": {
-    //     "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
-    // },
-    "tailwindCSS.includeLanguages": {
-        "plaintext": "html"
+    "editor.linkedEditing": true,                          // подсказки
+    "editor.formatOnSave": false,                          // включает форматирование при сохранении
+    "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'calt', 'dlig'", // моноширинные шрифты
+    "diffEditor.wordWrap": "on",                           // включает форматирование при сохранении в различных редакторах
+    "notebook.output.wordWrap": true,                      // включает форматирование при сохранении в ячейках
+    "editor.fontSize": 15.5,                               // размер шрифта
+    "editor.minimap.maxColumn": 250,                       // максимальная ширина миникарты
+    "codesnap.boxShadow": "rgba(0, 0, 0, 0.55) 0px 12px 24px", // тень
+    "explorer.confirmDelete": false,                       // подтверждение
+    "editor.accessibilitySupport": "off",                  // поддержка
+    "chat.editor.wordWrap": "on",                          // переносы строк в чат
+    "editor.wordWrap": "wordWrapColumn",                   // переносы строк в редакторе
+    "tailwindCSS.includeLanguages": {                      // подключение языков
+        "plaintext": "html"                                // подключение html
     },
-    "tailwindCSS.experimental.configFile": null,
-    "editor.fontWeight": "600", // насыщеность шрифта
-    "editor.inlineSuggest.suppressSuggestions": true,
-    "codesnap.backgroundColor": "#FFC540",
-    "codesnap.showLineNumbers": false,
-    "codesnap.roundedCorners": true,
-    "editor.padding.top": 16,
-    "editor.cursorBlinking": "expand",
-    "editor.stickyScroll.enabled": false,
-    "editor.lineHeight": 24.5, // межстрочный интервал
+    "tailwindCSS.experimental.configFile": null,           // файл конфигурации
+    "editor.fontWeight": "600",                            // насыщеность шрифта
+    "editor.inlineSuggest.suppressSuggestions": true,      // подсказки
+    "codesnap.backgroundColor": "#FFC540",                 // фон
+    "codesnap.showLineNumbers": false,                     // показывать номера строк
+    "codesnap.roundedCorners": true,                       // округленные углы
+    "editor.padding.top": 16,                              // отступ
+    "editor.cursorBlinking": "expand",                     // включает курсор
+    "editor.stickyScroll.enabled": false,                  // приклеивание
+    "editor.lineHeight": 24.5,                             // межстрочный интервал
 
-    "editor.tokenColorCustomizations": {
-        "textMateRules": [
+    "editor.tokenColorCustomizations": {                   // цвета токенов
+        "textMateRules": [                                 // моноширинные шрифты
             {
-              "scope": [
+              "scope": [                                   // расширение
                 "comment",
                 "keyword",
                 "variable.language",
@@ -184,23 +125,21 @@
                 "comment.block",
                 "comment.line"
               ],
-              "settings": {
-                "fontStyle": ""
+              "settings": {                                // насыщенность шрифта
+                "fontStyle": ""                            // подключение кастомных стилей
               }
             }
           ]
     },
-    // "material-icon-theme.saturation": 0, // цвет иконок вкл/выкл
-    "vscode_custom_css.imports": [
-        "file:///home/wisderfin/vscode.css",
-        "file:///home/wisderfin/vscode.js"
+    "vscode_custom_css.imports": [                         // Подключение кастомных настроек
+        "file:///home/wisderfin/.config/Code/User/vscode.css",  // Подключение кастомных стилей
+        "file:///home/wisderfin/.config/Code/User/vscode.js"    // Подключение кастомных скриптов
     ],
-    "workbench.tree.enableStickyScroll": false,
-    "window.menuBarVisibility": "toggle",
-    "editor.tabCompletion": "onlySnippets",
-    "explorer.confirmDragAndDrop": false,
-    "liveServer.settings.donotVerifyTags": true,
-    "makefile.configureOnOpen": false,
-    "files.autoSave": "afterDelay",
-    // "editor.acceptSuggestionOnEnter": "off"
+    "workbench.tree.enableStickyScroll": false,            //  липкое прокручивание
+    "window.menuBarVisibility": "toggle",                  // вид меню
+    "editor.tabCompletion": "onlySnippets",                // подсказки
+    "explorer.confirmDragAndDrop": false,                  // Отключает подтверждение при перетаскивании и сбрасывании файлов в проводнике
+    "liveServer.settings.donotVerifyTags": true,           // Отключает проверку тегов HTML при использовании Live Server.
+    "makefile.configureOnOpen": false,                     // Отключает конфигурирование Makefile при открытии
+    "files.autoSave": "afterDelay"                         // Автосохранение
 }

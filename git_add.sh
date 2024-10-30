@@ -4,6 +4,8 @@
 git add git_add.sh                              # Этот скрипт
 git add Code/User/settings.json                 # Конфиг VSCode
 git add Code/User/keybindings.json              # Горячие клавиши VSCode
+git add Code/User/vscode.css                    # Стили для VSCode
+git add Code/User/vscode.js                     # Скрипты VSCode
 
 git add hypr/                                   # Конфиги и скрипты Hyprland
 git add kitty/                                  # Конфиг терминала Kitty
