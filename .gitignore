@@ -1,0 +1,17 @@
+# Исключаем все директории
+*
+
+# Добавляем только нужные
+!Code/User/settings.json                # Настройки для vs code
+!Code/User/keybindings.json             # Горячие клавиши для vs code
+
+!hypr/                                  # Конфиги и скрипты hyprland
+!kitty/                                 # Конфиг терминала kitty
+!mako/                                  # Конфиг менеджера уведомлений mako
+!neofetch/                              # Конфиг neofetch
+!nvum/                                  # Конфиг NeoVIM
+!rofi/                                  # Конфиг менеджера приложений rofi
+!swaylock/                              # Конфиг менеджера экрана блокировки SwayLock
+
+!.gitignore
+!Readme.md
