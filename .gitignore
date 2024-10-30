@@ -2,6 +2,8 @@
 *
 
 # Добавляем только нужные
+!.gitignore
+
 !Code/User/settings.json                # Настройки для vs code
 !Code/User/keybindings.json             # Горячие клавиши для vs code
 
@@ -13,5 +15,4 @@
 !rofi/                                  # Конфиг менеджера приложений rofi
 !swaylock/                              # Конфиг менеджера экрана блокировки SwayLock
 
-!.gitignore
 !Readme.md
