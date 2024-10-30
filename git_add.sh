@@ -17,12 +17,9 @@ git add rofi/                                   # Конфиг менеджер�
 git add swaylock/                               # Конфиг менеджера экрана блокировки Swaylock
 
 
-git add Code/User/Readme.md
-git add Code/User/image.png
-git add hypr/README.md
-git add hypr/image.png
-git add hypr/image2.png
-git add hypr/image3.png
+git add **/Readme.md
+git add **/image.png
+
 
 # Проверка статуса для подтверждения
 git status
