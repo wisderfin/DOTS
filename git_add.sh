@@ -16,5 +16,8 @@ git add nvum/                                   # Конфиг NeoVIM
 git add rofi/                                   # Конфиг менеджера приложений Rofi
 git add swaylock/                               # Конфиг менеджера экрана блокировки Swaylock
 
+
+git add Code/User/Readme.md
+git add Code/User/image.png
 # Проверка статуса для подтверждения
 git status

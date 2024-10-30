@@ -1,5 +1,5 @@
 {
-    "workbench.colorTheme": "React Theme",                      // Цыетовая тема
+    "workbench.colorTheme": "React Theme",                      // Цветовая тема
     "workbench.iconTheme": "vs-seti-jetbrainsmononerdfontmono", // Тема иконок
     "workbench.activityBar.location": "hidden",                 // Скрытие панели активности
     "workbench.statusBar.visible": false,                       // Скрытие строки состояния
@@ -141,5 +141,6 @@
     "explorer.confirmDragAndDrop": false,                  // Отключает подтверждение при перетаскивании и сбрасывании файлов в проводнике
     "liveServer.settings.donotVerifyTags": true,           // Отключает проверку тегов HTML при использовании Live Server.
     "makefile.configureOnOpen": false,                     // Отключает конфигурирование Makefile при открытии
-    "files.autoSave": "afterDelay"                         // Автосохранение
+    "files.autoSave": "afterDelay",
+    "explorer.confirmPasteNative": false // Автосохранение
 }
