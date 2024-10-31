@@ -29,7 +29,7 @@ while true; do
   elif [ "$status" = "Not charging" ] && [ "$status" != "$prev_status" ]; then
     dunstify "Батарея" "На массонаборе"
   elif [ "$status" = "Discharging" ] && [ "$status" != "$prev_status" ]; then
-    dunstify "Батарея" "На диете"
+    dunstify "Батарея" "На сушке"
   fi
   
   # Сохраняем текущее состояние как предыдущее для следующей итерации
