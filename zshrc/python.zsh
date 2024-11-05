@@ -1,0 +1,7 @@
+alias pipi='pip install'
+alias pipr='pip remove'
+alias pipl='pip list'
+alias newvenv='python3 -m venv venv && source venv/bin/activate'
+alias venv='source venv/bin/activate'
+alias req='python3 -m pip install -r requirements.txt'
+alias freeze='del requirements.txt && pip freeze >> requirements.txt'

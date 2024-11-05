@@ -15,6 +15,7 @@ git add nvum/                                   # Конфиг NeoVIM
 
 git add rofi/                                   # Конфиг менеджера приложений Rofi
 git add swaylock/                               # Конфиг менеджера экрана блокировки Swaylock
+git add zshrc/                                  # Конфиг ZSH
 
 
 git add **/Readme.md

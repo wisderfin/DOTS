@@ -141,6 +141,9 @@
     "explorer.confirmDragAndDrop": false,                  // Отключает подтверждение при перетаскивании и сбрасывании файлов в проводнике
     "liveServer.settings.donotVerifyTags": true,           // Отключает проверку тегов HTML при использовании Live Server.
     "makefile.configureOnOpen": false,                     // Отключает конфигурирование Makefile при открытии
-    "files.autoSave": "afterDelay",
-    "explorer.confirmPasteNative": false // Автосохранение
+    "files.autoSave": "afterDelay",                        // Автосохранение
+    "explorer.confirmPasteNative": false,
+    "editor.rulers": [
+        99
+    ]
 }
